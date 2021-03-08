@@ -10,7 +10,7 @@ datagroup: mzc_alex_project_default_datagroup {
 
 persist_with: mzc_alex_project_default_datagroup
 
-# explore: bumblebee_data_trans {}
+explore: ga_sessions__hits {}
 
 # explore: bumblebee_data_trans_4 {}
 
@@ -67,4 +67,3 @@ persist_with: mzc_alex_project_default_datagroup
 #     relationship: one_to_many
 #   }
 # }
-
