@@ -11,5 +11,5 @@ datagroup: gmc_alex_default_datagroup {
 persist_with: gmc_alex_default_datagroup
 
 explore: ga_sessions {
-    view_label: "Ga Sessions: Average_Visit"
+    view_label: "Ga Sessions: Average_Visit!"
   }

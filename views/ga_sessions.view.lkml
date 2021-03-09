@@ -13,12 +13,18 @@ view: ga_sessions {
     type: number
     sql: ${TABLE}.visitId ;;
   }
+  dimension: date {
+    type : string
+    sql:  ${TABLE}.date ;;
+  }
   measure : user_count {
     type :  count_distinct
     sql: ${visit_id} ;;
   }
-  measure: avg_page_visit_per_user  {
+  measure: Avg_Page_Visit_Per_User  {
     type : number
+    value_format: "0.000000"
     sql: ${total_page_visits}/${user_count} ;;
   }
+
 }
